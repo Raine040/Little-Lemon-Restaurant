@@ -1,0 +1,35 @@
+footer section {
+  padding: 50px 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.company-info img {
+  margin-top: 12px;
+  cursor: pointer;
+  width: 150px;
+}
+
+/* .company-info p {
+  width: 300px;
+} */
+
+footer h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  padding: 8px 0;
+  list-style: none;
+}
+
+footer ul li a {
+  color: black;
+  text-decoration: none;
+}
