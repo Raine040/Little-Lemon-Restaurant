@@ -40,18 +40,18 @@ const Footer = () => {
           <h3>Contact</h3>
           <ul>
             <li>
-              Address: <br /> 123 Town Street, Chicago
+              Address: <br /> 123 Bear Street, Chicago
             </li>
             <li>
               Phone: <br /> +00 123 456 789
             </li>
             <li>
-              Email: <br /> little@lemon.com
+              Email: <br /> info@littlelemon.com
             </li>
           </ul>
         </div>
         <div>
-          <h3>Social Media Links</h3>
+          <h3>Social Media</h3>
           <ul>
             <li>
               <a href="/">Facebook</a>
@@ -60,7 +60,7 @@ const Footer = () => {
               <a href="/">Instagram</a>
             </li>
             <li>
-              <a href="/">Twitter</a>
+              <a href="/">TikTok</a>
             </li>
           </ul>
         </div>
