@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 import headerImg from "../images/headerImg.jpg";
 
 const Header = () => {
@@ -13,9 +14,9 @@ const Header = () => {
             We are a family owned Mediterraneran restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
-          {/* <Link to="/booking"> */}
-          <button aria-label="On Click">Reserve Table</button>
-          {/* </Link> */}
+          <Link to="/BookingPage">
+            <button aria-label="On Click">Reserve Table</button>
+          </Link>
         </div>
         <div className="header-img">
           <img src={headerImg} alt="" />

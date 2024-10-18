@@ -1,0 +1,38 @@
+form,
+.comfirm {
+  padding: 10px 13%;
+}
+
+.formField {
+  padding: 50px 20px;
+}
+
+input,
+label {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#date,
+#time,
+#guests,
+#occasion {
+  background: #bdbdbd43;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+.btnReceive input {
+  padding: 12px 16px;
+  margin-top: 20px;
+  background: #495e57;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.confirm span {
+  color: blue;
+}
