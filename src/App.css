@@ -56,6 +56,215 @@ nav ul li a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+button {
+  background-color: #f4ce14;
+  color: black;
+  padding: 14px 18px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* HEADER CSS */
+
+.header {
+  background-color: #495e57;
+  padding: 40px 0;
+}
+
+.header section {
+  color: #edefee;
+  padding: 10px 13%;
+  position: relative;
+}
+
+h2 {
+  color: #f4ce14;
+  font-size: 40px;
+  font-family: Markazi Text Medium;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: Markazi Text Medium;
+  margin-top: -30px;
+}
+
+p {
+  font-family: Karla Regular, sans-serif;
+}
+
+.banner p {
+  font-size: 20px;
+  max-width: 520px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #f4ce14;
+  color: black;
+  padding: 14px 18px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-img {
+  position: absolute;
+  right: 13%;
+  top: 5px;
+  width: 400px;
+}
+
+.header-img img {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+/* MENU CSS */
+
+.menu-container {
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+.menu-container h2 {
+  color: #000;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem 1rem;
+}
+
+.menu-items {
+  /* height: 400px; */
+  width: 350px;
+  background: #edefee;
+  border-radius: 8px;
+}
+
+.menu-container img {
+  width: 100%;
+  height: 233px;
+  border-radius: 8px;
+}
+
+.menu-content {
+  padding: 5px 15px;
+}
+
+.menu-content .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-content .heading p {
+  color: #ee9972;
+}
+
+.menu-content .orderbtn {
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* BOOKINGFORM CSS */
+
+.booking-form {
+  height: 55vh;
+  background-color: #495e57;
+  padding: 2rem 2rem;
+  font-family: "Karla", sans-serif;
+  color: #edefee;
+}
+
+.bookings-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input,
+select {
+  height: 35px;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.25rem 1rem;
+}
+
+label {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.booking-button {
+  padding: 8px 12px;
+  margin-top: 20px;
+  background: #f4ce14;
+  color: #000;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.booking-button:hover {
+  transform: scale(0.95);
+  transition-duration: 200ms;
+  background-color: hsla(50, 91%, 52%, 0.925);
+  cursor: pointer;
+}
+
+.confirm span {
+  color: blue;
+}
+
+/* BOOKINGPAGE CSS */
+
+.booking-page {
+  background-color: #495e57;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+.booking-page h1 {
+  text-align: center;
+  color: #f4ce14;
+}
+
+.booking-page p {
+  text-align: center;
+  color: #fff;
+}
+
 /* FOOTER CSS */
 
 footer section {
