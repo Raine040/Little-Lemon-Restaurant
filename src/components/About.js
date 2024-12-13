@@ -1,9 +1,11 @@
+import aboutImg from "../images/aboutImg.jpg";
+
 const About = () => {
   return (
-    <>
-      <section className="hero-text">
-        <h1>Little Lemon</h1>
-        <h2>Chicago</h2>
+    <div className="about-us">
+      <section className="about-section">
+        <h1 className="about-title">Little Lemon</h1>
+        <h4>Chicago</h4>
         <p className="about-subtext">
           Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario.
           Despite the city's diversity, the two brothers recognized the lack of
@@ -12,8 +14,11 @@ const About = () => {
           brothers continue to oversee the Little Lemon restaurant, nearly
           thirty years later.
         </p>
+        <div>
+          <img className="about-img" src={aboutImg} alt="" />
+        </div>
       </section>
-    </>
+    </div>
   );
 };
 

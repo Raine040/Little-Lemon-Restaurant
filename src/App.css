@@ -1,28 +1,16 @@
 /* NAV CSS */
 
-nav {
+/* nav {
   z-index: 10001;
-}
+} */
 
 .navbar {
-  padding: 10px 13%;
+  padding: 0px 13%;
+  padding-top: -9px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-nav ul li {
-  display: inline-block;
-  padding: 1em;
-}
-
-nav ul li a {
-  color: #000000;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  text-decoration: underline solid #495e57;
+  background-color: #edefee;
 }
 
 .menu-icon {
@@ -38,9 +26,26 @@ nav ul li a:hover {
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  align-items: center;
+  display: inline-flex;
+  padding: 1em;
+  gap: 1.8rem;
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
 }
 
 .nav-links.visible {
@@ -73,6 +78,7 @@ button {
 .header {
   background-color: #495e57;
   padding: 40px 0;
+  padding-bottom: 5%;
 }
 
 .header section {
@@ -129,11 +135,44 @@ button {
   border-radius: 20px;
 }
 
+/* ABOUT CSS */
+
+.about-section {
+  color: #edefee;
+  padding: 10px 13%;
+  position: relative;
+  background-color: #f4ce14;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.about-title {
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.about-subtext {
+  color: #000;
+  max-width: 700px;
+}
+
+.about-img {
+  position: absolute;
+  right: 20%;
+  top: 22px;
+  width: 200px;
+  height: 260px;
+  box-shadow: 0px 0px 14px 3px #f8f5f9;
+}
+
 /* MENU CSS */
 
 .menu-container {
-  margin: 110px auto;
-  padding: 10px 13%;
+  margin: 80px auto;
+  padding: 4% 13%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #edefee;
 }
 
 .menu-container h2 {
@@ -265,6 +304,53 @@ label {
   color: #fff;
 }
 
+/* CONFIRMATION CSS */
+
+.booking-confirmation {
+  height: 60vh;
+  background-color: #edefee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+}
+
+.booking-confirmed {
+  margin: 3rem 0;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 800;
+  color: #495e57;
+}
+
+.redirect-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12vw;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.redirect-button {
+  background-color: #f4ce14;
+  color: black;
+  padding: 15px 25px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.redirect-button:hover {
+  background-color: #f4ce14;
+  color: #464646 !important;
+  transition: 0.2s;
+}
+
 /* FOOTER CSS */
 
 footer section {
@@ -272,9 +358,10 @@ footer section {
   display: flex;
   justify-content: space-between;
   align-items: start;
+  background-color: #edefee;
 }
 
-.company-info img {
+.footer-img {
   margin-top: 12px;
   cursor: pointer;
   width: 150px;
@@ -285,6 +372,12 @@ footer h3 {
   margin-top: 10px;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: lighter;
+}
+
 footer ul {
   padding: 0;
 }
@@ -292,9 +385,116 @@ footer ul {
 footer ul li {
   padding: 8px 0;
   list-style: none;
+  font-weight: lighter;
 }
 
 footer ul li a {
   color: black;
   text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .nav-links.visible {
+    display: flex;
+    background: #495e57;
+    z-index: 1000;
+    padding: 20px 0;
+  }
+
+  .navbar {
+    background: #fff;
+    padding: 10px 8%;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .bar {
+    background: #000;
+  }
+
+  .header {
+    display: grid;
+    padding: 3rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .about-us {
+    padding: 0;
+    height: 90vh;
+    width: 50vh;
+    display: flex;
+  }
+
+  .about-title {
+    font-size: 30px;
+  }
+
+  .about-subtext {
+    font-size: 15px;
+  }
+
+  .about-img {
+    width: 180px;
+    height: 230px;
+    position: relative;
+    margin-left: 55px;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  .footer-container {
+    display: grid;
+  }
+
+  .footer-img {
+    width: 100px;
+    padding-bottom: 1rem;
+  }
+
+  .footer-columns ul {
+    padding-top: -1rem;
+    line-height: 15%;
+  }
+
+  footer h3 {
+    padding-bottom: 1%;
+  }
+
+  .booking-confirmation {
+    display: block;
+    padding: 2rem;
+  }
+
+  .redirect-buttons {
+    display: inline-block;
+    padding-top: 9rem;
+  }
+
+  .redirect-button {
+    margin: 9px;
+    padding: 16px;
+  }
 }

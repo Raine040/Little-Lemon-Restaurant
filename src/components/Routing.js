@@ -3,6 +3,7 @@ import Homepage from "./Homepage";
 import About from "./About";
 import BookingPage from "./BookingPage";
 import Confirmation from "./Confirmation";
+import Menu from "./Menu";
 
 const Routing = () => {
   return (
@@ -14,6 +15,8 @@ const Routing = () => {
       <Route path="/reservations" element={<BookingPage />} />
 
       <Route path="/confirmation" element={<Confirmation />} />
+
+      <Route path="/menu" element={<Menu />} />
     </Routes>
   );
 };

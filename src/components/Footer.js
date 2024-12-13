@@ -1,38 +1,42 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import footerLogo from "../images/footerLogo.png";
 
 const Footer = () => {
   return (
-    <footer className="">
-      <section>
-        <div className="company-info">
-          <img src={footerLogo} alt="Little Lemon logo" />
+    <footer>
+      <section className="footer-container">
+        <div>
+          <img
+            src={footerLogo}
+            alt="Little Lemon logo"
+            className="footer-img"
+          />
           {/* <p>
             We are a family owned Mediterraneran restaurant, focused on
             traditional recipes served with a modern twist.
           </p> */}
         </div>
-        <div>
-          <h3>Important Links</h3>
+        <div className="footer-columns">
+          <h3>Links</h3>
           <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/">About</a>
-            </li>
-            <li>
-              <a href="/">Menu</a>
-            </li>
-            <li>
-              <a href="/">Reservations</a>
-            </li>
-            <li>
-              <a href="/">Order Online</a>
-            </li>
-            <li>
-              <a href="/">Login</a>
-            </li>
+            <Link className="nav-link" to="/">
+              <h4 className="footer-link">Home</h4>
+            </Link>
+            <Link className="nav-link" to="/about">
+              <h4 className="footer-link">About</h4>
+            </Link>
+            <Link className="nav-link" to="/menu">
+              <h4 className="footer-link">Menu</h4>
+            </Link>
+            <Link className="nav-link" to="/reservations">
+              <h4 className="footer-link">Reservations</h4>
+            </Link>
+            <Link className="nav-link" to="/menu">
+              <h4 className="footer-link">Order Online</h4>
+            </Link>
+            <Link className="nav-link" to="/">
+              <h4 className="footer-link">Login</h4>
+            </Link>
           </ul>
         </div>
         <div>
@@ -49,7 +53,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footer-columns">
           <h3>Social Media</h3>
           <ul>
             <li>
