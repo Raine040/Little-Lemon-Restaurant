@@ -18,7 +18,8 @@ const BookingPage = () => {
       <BookingForm availableTimes={availableTimes} updateTimes={dispatch} />
 
       <p>
-        Thank you for choosing Little Lemon! We look forward to serving you.
+        Thank you for choosing Little Lemon! <br />
+        We look forward to serving you.
       </p>
     </div>
   );
