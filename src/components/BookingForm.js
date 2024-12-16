@@ -52,10 +52,11 @@ const BookingForm = (props) => {
       >
         <fieldset>
           <div className="Field">
-            <label>
+            <label htmlFor="firstName">
               First name <sup>*</sup>
             </label>
             <input
+              id="firstName"
               value={firstName}
               onChange={(e) => {
                 setFirstName(e.target.value);
@@ -64,10 +65,11 @@ const BookingForm = (props) => {
             />
           </div>
           <div className="Field">
-            <label>
+            <label htmlFor="lastName">
               Last name <sup>*</sup>
             </label>
             <input
+              id="lastName"
               value={lastName}
               onChange={(e) => {
                 setLastName(e.target.value);
@@ -76,10 +78,11 @@ const BookingForm = (props) => {
             />
           </div>
           <div className="Field">
-            <label>
+            <label htmlFor="email">
               Email address <sup>*</sup>
             </label>
             <input
+              id="email"
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value);
@@ -136,7 +139,11 @@ const BookingForm = (props) => {
             </select>
           </div>
           <Link className="booking-button" to="/confirmation">
-            <button type="submit" disabled={!getIsFormValid()}>
+            <button
+              aria-label="On Click"
+              type="submit"
+              disabled={!getIsFormValid()}
+            >
               Make Your Reservation
             </button>
           </Link>
