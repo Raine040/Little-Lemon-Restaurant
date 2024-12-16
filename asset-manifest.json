@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Raine040/Little-Lemon-Restaurant/static/css/main.780ab226.css",
+    "main.js": "/Raine040/Little-Lemon-Restaurant/static/js/main.095953b9.js",
+    "static/js/453.15cc4906.chunk.js": "/Raine040/Little-Lemon-Restaurant/static/js/453.15cc4906.chunk.js",
+    "static/media/headerImg.jpg": "/Raine040/Little-Lemon-Restaurant/static/media/headerImg.8c18e3cf861cd4fa9d0a.jpg",
+    "static/media/aboutImg.jpg": "/Raine040/Little-Lemon-Restaurant/static/media/aboutImg.ad65cbe92eea49dd63e5.jpg",
+    "static/media/footerLogo.png": "/Raine040/Little-Lemon-Restaurant/static/media/footerLogo.2c859235d6c57bb54176.png",
+    "static/media/Logo .svg": "/Raine040/Little-Lemon-Restaurant/static/media/Logo .f72c913c48c5334f78f2c336ec36f22b.svg",
+    "index.html": "/Raine040/Little-Lemon-Restaurant/index.html",
+    "static/media/menu_svg.svg": "/Raine040/Little-Lemon-Restaurant/static/media/menu_svg.9d5c7d143c5c8abe23da783721f07c65.svg",
+    "main.780ab226.css.map": "/Raine040/Little-Lemon-Restaurant/static/css/main.780ab226.css.map",
+    "main.095953b9.js.map": "/Raine040/Little-Lemon-Restaurant/static/js/main.095953b9.js.map",
+    "453.15cc4906.chunk.js.map": "/Raine040/Little-Lemon-Restaurant/static/js/453.15cc4906.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.780ab226.css",
+    "static/js/main.095953b9.js"
+  ]
+}
