@@ -4,6 +4,7 @@ import About from "./About";
 import BookingPage from "./BookingPage";
 import Confirmation from "./Confirmation";
 import Menu from "./Menu";
+import Subscribe from "./Subscribe";
 
 const Routing = () => {
   return (
@@ -17,6 +18,8 @@ const Routing = () => {
       <Route path="/confirmation" element={<Confirmation />} />
 
       <Route path="/menu" element={<Menu />} />
+
+      <Route path="/login" element={<Subscribe />} />
     </Routes>
   );
 };

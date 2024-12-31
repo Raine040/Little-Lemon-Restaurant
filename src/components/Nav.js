@@ -35,7 +35,7 @@ const Nav = () => {
         <Link className="nav-link" to="/menu" onClick={toggleMenu}>
           <h4>Order Online</h4>
         </Link>
-        <Link className="nav-link" to="/" onClick={toggleMenu}>
+        <Link className="nav-link" to="/login" onClick={toggleMenu}>
           <h4>Login</h4>
         </Link>
       </ul>
